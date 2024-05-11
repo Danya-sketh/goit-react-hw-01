@@ -1,4 +1,4 @@
-import Profile from './ Profile';
+import Profile from './Profile';
 import Statistics from './Statistics';
 import FriendList from './FriendList';
 import FriendListItem from './FriendListItem';
