@@ -24,3 +24,5 @@ function TransactionHistory({ items }) {
     </table>
   );
 }
+
+export default TransactionHistory;
