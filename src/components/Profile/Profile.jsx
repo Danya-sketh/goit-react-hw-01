@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import s from './Profile.module.css';
-import error from './error.png';
 
 function Profile({ name, tag, location, avatar, stats }) {
   return (
