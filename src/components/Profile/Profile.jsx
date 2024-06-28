@@ -15,7 +15,8 @@ function Profile({ name, tag, location, avatar, stats }) {
           className={s.avatar}
         /> */}
         <img
-      src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
+      src={avatar}
+      // error
       alt="User avatar"
      className={s.avatar}/>
         <p className={s.name}>{name}</p>
