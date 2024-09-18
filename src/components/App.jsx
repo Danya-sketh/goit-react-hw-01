@@ -19,7 +19,6 @@ function App() {
         avatar={userInfo.avatar}
         stats={userInfo.stats}
       />
-      <Statistics stats={statisticalData} />
       <FriendList>
         {friends.map(friend => (
           <FriendListItem
@@ -31,6 +30,8 @@ function App() {
           />
         ))}
       </FriendList>
+      <Statistics stats={statisticalData} />
+      
       <TransactionHistory items={transactions} />
     </Container>
   );
